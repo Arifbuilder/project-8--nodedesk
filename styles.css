@@ -468,9 +468,9 @@ margin-left: 250px;
     padding-left: 70px;
 }
 .forthpagenext{
-    background-color: #ffc107;
+   background-color: rgba(18, 87, 214, 0.788);
     position: absolute;
-    margin-top: -500px;
+    margin-top: -645px;
     display: flex;
     flex-direction: column;
     width: 38px
@@ -500,8 +500,117 @@ margin-left: 250px;
     display: none;
 }
 .leafonmob{
+    position: absolute;
+    margin-left: -10px;
+    height: 200px;
+    margin-top: -50px;
+}
+.fiftfirstondesc{
+    display: none;
+
+}
+.fifthfirstonmobile{
+ position: relative;
+} 
+.mainlastbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 200px;
+    
+    
+}
+.lastbox{
+    width: 400px;
+    position: relative;
+    margin-left: 40px;
+    
+}.imageportfoila{
+    margin-left: 00px;
+    
+    padding-left: 20px;
+}
+#mainlastbox{
     display: none;
 }
+.footer{
+    margin-top: 2300px;
+  
+  
+}
+
+#footerondesc{
+    display: none;
+}
+#lastbox5{
+    margin-top: -50px;
+    height: 500px;
+}
+#lastbox6{
+    margin-top: -100px;
+    height: 500px;
+}
+#lastbox2{
+   
+    height: 460px;
+}
+.lastmenu{
+    margin-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+    gap: 60px;
+   
+}
+.foot1{
+  
+   height: 160px;
+   background-color: #ececec;
+
+}
+.social{
+
+display: flex;
+margin-left: 10px;
+margin-top: 20px;
+  
+}
+.lastpart1{
+    display: flex;
+    
+}
+.lastpart2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: -300px;
+}
+.lastbutton{
+  display: flex;
+}
+.lastbutton{
+    margin-left: 100px;
+    width: 500px;
+    height: 150px;
+}
+.but{
+    width: 65px;
+    height: 60px;
+    border-radius: 70px;
+    background-color: #dee7f5;;
+    color: #747474;
+    border-color: #c7d9f7;
+}
+.foot2{
+    background-color: #dee7f5;
+}
+.orangedot{
+    display: none;
+}
+.majanthadot{
+    display: none;
+}
+
 
 }
 @media (orientation: landscape){
@@ -530,4 +639,21 @@ margin-left: 250px;
     display: flex;
     gap: 30px;
    }
+   .fifthfirstonmobile{
+    display: none;
+   }
+   #mainlastboxonmobile{
+    display: none;
+   }
+   #footeronmobile{
+    display: none;
+   }
+}
+
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;   /* MAIN FIX */
+  margin: 0;
+  padding: 0;
 }
